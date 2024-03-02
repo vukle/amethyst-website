@@ -13,10 +13,14 @@ body {
         }
 
         h1 {
+            text-shadow: 2px 10px 20px rgba(0, 0, 0, 0.589);
             font-size: 4em;
             background: -webkit-linear-gradient(left, #ff0055, #ff6699); 
+            background-clip: text;
+            -moz-background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
+            opacity: 0.9;
             margin: 0;
             transition: transform 0.3s;
         }
